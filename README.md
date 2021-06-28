@@ -11,7 +11,6 @@
   ```diff  
  +  Browse to installer.php and install.
   ```
-   + Downlaod files <a href="https://drive.google.com/drive/folders/15xBCyNBE7QQMt1R5FZkJMBGhKsTQGdgH?usp=sharing" target="_blank">Google Drive</a>
    + On Step 1 ❯ Enter the following password "woocommerce"
    ![Screenshot (31)](https://user-images.githubusercontent.com/36106440/123546127-41bb8d80-d753-11eb-8bad-72323065c036.png)
 
