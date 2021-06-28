@@ -1,0 +1,28 @@
+/* Control: Icons (based on Elementor Choose control) */
+.nm-elementor-control-icon-search {
+    margin-bottom: 12px;
+}
+.nm-elementor-control-icon .elementor-choices {
+	display: block;
+    line-height: 48px;
+    height: 100%;
+    max-height: 236px;
+    padding-bottom: 1px;
+	border-spacing: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-border-radius: 0; border-radius: 0;
+}
+.nm-elementor-control-icon .elementor-choices .elementor-choices-label {
+	display: block;
+    float: left;
+    font-size: 30px;
+    width: 48px;
+    height: 48px;
+    margin: 0 -1px -1px 0;
+    border: 1px solid #d5dadf;
+    -webkit-border-radius: 0; border-radius: 0;
+}
+.nm-elementor-control-icon .elementor-choices.is-search .elementor-choices-label:not(.show) {
+    display: none;
+}

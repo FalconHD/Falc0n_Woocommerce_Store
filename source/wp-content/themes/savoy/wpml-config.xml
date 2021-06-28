@@ -1,0 +1,22 @@
+<wpml-config>
+	<admin-texts>
+        <key name="nm_theme_options">
+            <key name="top_bar_text" />
+            <key name="footer_bar_text" />
+            <key name="footer_bar_custom_content" />
+            <key name="shop_default_description" />
+            <key name="myaccount_dashboard_text" />
+            <key name="wishlist_share_title" />
+            <key name="wishlist_share_text" />
+        </key>
+	</admin-texts>
+    <shortcodes>
+        <shortcode>
+            <tag>nm_banner</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

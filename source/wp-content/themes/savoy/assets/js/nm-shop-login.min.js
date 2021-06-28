@@ -1,0 +1,3 @@
+/* NM: My account script */
+(function(b){b.nmReady(function(){function d(){var a=b("#nm-login-wrap"),c=b("#nm-register-wrap");a.removeClass("fade-in");setTimeout(function(){c.addClass("inline fade-in slide-up");a.removeClass("inline slide-up")},250)}function e(){var a=b("#nm-login-wrap"),c=b("#nm-register-wrap");c.removeClass("fade-in");setTimeout(function(){a.addClass("inline fade-in slide-up");c.removeClass("inline slide-up")},250)}b("#nm-show-register-button").on("click",function(a){a.preventDefault();d()});b("#nm-show-login-button").on("click",
+function(a){a.preventDefault();e()});window.location.hash&&"#register"==window.location.hash&&d()})})(jQuery);

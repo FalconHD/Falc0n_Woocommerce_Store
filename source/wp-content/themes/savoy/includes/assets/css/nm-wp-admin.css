@@ -1,0 +1,397 @@
+/* Theme settings: Redux framework
+--------------------------------------------------------------- */
+
+.toplevel_page_Savoy .wrap > .redux-notice.is-dismissible,
+#redux-header .rAds {
+	display: none !important;
+}
+.redux-dev-mode-notice-container.redux-dev-qtip {
+    display: none;
+}
+/* Social profiles sortable */
+[data-rel="14"] .form-table > tbody > tr > th {
+    display: none;
+}
+#social_profiles-list {
+    margin-top: 0;
+}
+#social_profiles-list li input {
+    width: 100%;
+    max-width: 370px;
+}
+
+
+/* Theme settings: Customizer - Redux framework
+--------------------------------------------------------------- */
+
+.wp-customizer .rAdsContainer {
+    display: none !important;
+}
+.wp-customizer .redux_field_th {
+    font-weight: bold;
+}
+.wp-customizer .redux_field_th > .description {
+    display: block;
+    font-weight: normal;
+}
+.wp-customizer .redux-field-info {
+    margin: 0;
+    padding: 43px 0 14px;
+    border: 0 none;
+    background: none;
+}
+.wp-customizer #customize-controls .redux-field-info > h3 {
+    font-size: 1.4em;
+}
+/* Field: Typography */
+.wp-customizer #nm_theme_options-main_font_info,
+.wp-customizer #nm_theme_options-main_font_source,
+.wp-customizer #nm_theme_options-main_font_adobefonts_project_id,
+.wp-customizer #nm_theme_options-main_adobefonts_font,
+.wp-customizer #nm_theme_options-header_font_info,
+.wp-customizer #nm_theme_options-header_font_source,
+.wp-customizer #nm_theme_options-header_font_adobefonts_project_id,
+.wp-customizer #nm_theme_options-header_adobefonts_font,
+.wp-customizer #nm_theme_options-secondary_font_info,
+.wp-customizer #nm_theme_options-secondary_font_source,
+.wp-customizer #nm_theme_options-secondary_font_adobefonts_project_id,
+.wp-customizer #nm_theme_options-secondary_adobefonts_font {
+    display: none !important;
+}
+/* Section: WPBakery */
+#accordion-section-wpbakery {
+    display: none !important;
+}
+
+
+/* Menus
+--------------------------------------------------------------- */
+
+.nm-field-thumbnail:not(.has-thumbnail) {
+    display: none;
+}
+.menu-item:not(.menu-item-depth-1) .nm-field-thumbnail.has-thumbnail {
+    position: relative;
+}
+.menu-item:not(.menu-item-depth-1) .nm-field-thumbnail.has-thumbnail:after {
+	display: block;
+    position: absolute;
+	top: 50%;
+	left: 0;
+    width: 100%;
+    max-width: 190px;
+    transform: translateY(-50%);
+	font-weight: bold;
+    color: #a00;
+    text-align: center;
+    content: "Available for 2nd level items";
+}
+.menu-item:not(.menu-item-depth-1) .nm-field-thumbnail.has-thumbnail > label {
+    pointer-events: none;
+}
+.menu-item:not(.menu-item-depth-1) .nm-field-thumbnail.has-thumbnail label > img {
+    opacity: 0.2;
+}
+.menu-item-depth-1 .nm-field-thumbnail {
+    display: list-item;
+}
+.nm-field-thumbnail img {
+	display: block;
+	width: auto;
+    max-width: 190px;
+	height: auto;
+}
+
+
+/* Visual Composer
+--------------------------------------------------------------- */
+
+/* Hide "deprecated" message in element modal */
+.vc_shortcode-edit-form-deprecated-message {
+	display: none !important;
+}
+
+/* Hide unused "Templates library" tab */
+body:not(.nm-vcomp-stock) .vc_ui-template-panel-header-container .vc_panel-tabs-control:nth-child(2) {
+  display: none;
+}
+
+/* Contact Form 7 element: Hide */
+.vc_add-element-container .wpb-content-layouts [data-element="contact-form-7"],
+.vc_add-element-container .wpb-content-layouts .vc_visible[data-element="contact-form-7"] {
+	display: none;
+}
+
+/* Portfolio element: Hide on single portfolio item pages */
+.post-type-portfolio [data-element="nm_portfolio"] {
+    display: none !important;
+}
+
+/* Element icons */
+.vc_element-icon.icon-wpb-application-plus {
+	background-image: url("../img/visual-composer/googleplus-button.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-balloon-facebook-left {
+	background-image: url("../img/visual-composer/facebook-like.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-film-youtube {
+	background-image: url("../img/visual-composer/video-player.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-information-white {
+	background-image: url("../img/visual-composer/massage-box.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-layer-shape-text {
+	background-image: url("../img/visual-composer/text-block.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-toggle-small-expand {
+	background-image: url("../img/visual-composer/faq.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-ui-accordion,
+.vc_element-icon.icon-wpb-ui-accordion[data-is-container="true"] {
+	background-image: url("../img/visual-composer/accordion.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-layout_sidebar {
+	background-image: url("../img/visual-composer/widgetised-sidebar.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-ui-separator {
+	background-image: url("../img/visual-composer/separator.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-ui-tab-content,
+.vc_element-icon.icon-wpb-ui-tab-content[data-is-container="true"] {
+	background-image: url("../img/visual-composer/tabs.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-ui-tab-content-vertical,
+.vc_element-icon.icon-wpb-ui-tab-content-vertical[data-is-container="true"] {
+	background-image: url("../img/visual-composer/tour.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-pinterest {
+	background-image: url("../img/visual-composer/pinterest-button.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-tweetme {
+	background-image: url("../img/visual-composer/tweetmeme-button.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-single-image {
+	background-image: url("../img/visual-composer/single-image.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-raw-html {
+	background-image: url("../img/visual-composer/raw-html.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-raw-javascript {
+	background-image: url("../img/visual-composer/raw-js.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-graph {
+	background-image: url("../img/visual-composer/progress-bar.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-vc_pie {
+	background-image: url("../img/visual-composer/pie-chart.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-row,
+.vc_element-icon.icon-wpb-row[data-is-container="true"] {
+	background-image: url("../img/visual-composer/row.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-ui-empty_space {
+	background-image: url("../img/visual-composer/empty-space.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-ui-custom_heading {
+	background-image: url("../img/visual-composer/custom-heading.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-woocommerce {
+	background-image: url("../img/visual-composer/woocommerce.png");
+	background-position: 0 0;
+}
+.vc_element-icon.vc_icon-vc-gutenberg {
+	background-image: url("../img/visual-composer/gutenberg.jpg");
+	background-position: 0 0;
+}
+
+/* Element icons: Custom elements */
+.vc_element-icon.nm_banner {
+	background-image: url("../img/visual-composer/banner.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_banner_slider {
+	background-image: url("../img/visual-composer/banner-slider.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_button {
+	background-image: url("../img/visual-composer/button.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_contact_form_7 {
+	background-image: url("../img/visual-composer/contact_form_7.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_feature_box {
+	background-image: url("../img/visual-composer/feature-box.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_feature {
+	background-image: url("../img/visual-composer/feature-box.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_gmap {
+	background-image: url("../img/visual-composer/google-map.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_lightbox {
+	background-image: url("../img/visual-composer/lightbox.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_portfolio {
+	background-image: url("../img/visual-composer/portfolio.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_post_slider {
+	background-image: url("../img/visual-composer/post-slider.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_posts {
+	background-image: url("../img/visual-composer/posts.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_social_profiles {
+	background-image: url("../img/visual-composer/social-profiles.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_team {
+	background-image: url("../img/visual-composer/team.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_testimonial {
+	background-image: url("../img/visual-composer/testimonial.png");
+	background-position: 0 0;
+}
+.vc_element-icon.icon-wpb-revslider {
+	background-image: url("../img/visual-composer/revolution-slider.png");
+	background-position: 0 0;
+}
+.vc_element-icon.nm_instagram {
+	background-image: url("../img/visual-composer/instagram.png");
+	background-position: 0 0;
+}
+
+/* Element settings */
+.vc_edit_form_elements div[data-vc-shortcode-param-name="use_custom_heading"] { /* vc_toggle: Remove "Use custom font" setting */
+    display: none !important;
+}
+.vc_edit_form_elements .vc-iconpicker-wrapper .vc-icons-selector { /* Icon selector: Icon size */
+	font-size: 30px;
+}
+
+
+/* Post type: Meta boxes
+--------------------------------------------------------------- */
+
+.nm-wp-meta ul li {
+	margin: 14px 0;
+}
+.nm-wp-meta-label,
+.nm-wp-meta-input {
+	display: inline-block;
+	vertical-align: top;
+}
+.nm-wp-meta-label {
+	width: 25%;
+}
+.nm-wp-meta-input {
+	width: 69%;
+}
+.nm-meta-description {
+	font-style: italic;
+	color: #777;
+	margin: 3px 0 0;
+}
+
+@media all and (max-width: 550px) {
+	.nm-wp-meta-label,
+	.nm-wp-meta-input {
+		display: block;
+		width: auto;
+	}
+	.nm-wp-meta-label {
+		margin-bottom: 3px;
+	}
+	.nm-wp-meta-input input {
+		width: 100%;
+	}
+}
+
+/* Sidebar meta box */
+.nm-wp-meta.sidebar .nm-wp-meta-label,
+.nm-wp-meta.sidebar .nm-wp-meta-input {
+	display: block;
+	width: auto;
+}
+.nm-wp-meta.sidebar .nm-wp-meta-label {
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+.nm-wp-meta.sidebar .nm-wp-meta-input input,
+.nm-wp-meta.sidebar .nm-wp-meta-input select {
+	width: 100%;
+}
+
+/* Meta box - Single product: Featured video */
+#nm_featured_product_video_input {
+	width: 100%;
+}
+
+
+/* Widgets
+--------------------------------------------------------------- */
+
+/* Widget: Color filter (attributes filter) */
+.nm-widget-attributes-table {
+	margin: 1em 0;
+}
+/* Attributes table */
+.nm-widget-attributes-table table {
+	border-spacing: 0;
+}
+.nm-widget-attributes-table table tr th,
+.nm-widget-attributes-table table tr td {
+	padding: 0 32px 2px 0;
+}
+.nm-widget-attributes-table table tr th {
+	font-weight: normal;
+	text-align: left;
+	padding-bottom: 12px;
+}
+.nm-widget-attributes-table table tr td {
+	vertical-align: top;
+}
+.nm-widget-attributes-table table tr td label {
+	padding-top: 4px;
+}
+
+
+/* Instagram options page
+--------------------------------------------------------------- */
+
+#nm-admin-instagram-options table tr:not(:first-child) {
+    display: none;
+}
+.nm-admin-instagram-auth-buttons {
+    margin-top: 10px;
+}

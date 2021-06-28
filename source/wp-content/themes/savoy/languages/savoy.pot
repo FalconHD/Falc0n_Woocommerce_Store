@@ -1,0 +1,542 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Savoy Theme\n"
+"POT-Creation-Date: 2019-09-25 19:22+0200\n"
+"PO-Revision-Date: 2019-03-13 15:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: NordicMade\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/theme-plugins\n"
+"X-Poedit-SearchPathExcluded-2: includes/tgmpa\n"
+"X-Poedit-SearchPathExcluded-3: includes/options\n"
+"X-Poedit-SearchPathExcluded-4: includes/setup\n"
+"X-Poedit-SearchPathExcluded-5: includes/visual-composer/elements\n"
+"X-Poedit-SearchPathExcluded-6: includes/visual-composer/params\n"
+"X-Poedit-SearchPathExcluded-7: includes/woocommerce/admin\n"
+"X-Poedit-SearchPathExcluded-8: includes/woocommerce/widgets\n"
+"X-Poedit-SearchPathExcluded-9: includes/visual-composer/elements-config."
+"php\n"
+"X-Poedit-SearchPathExcluded-10: includes/visual-composer/init.php\n"
+"X-Poedit-SearchPathExcluded-11: woocommerce\n"
+"X-Poedit-SearchPathExcluded-12: includes/visual-composer/deprecated/"
+"elements\n"
+"X-Poedit-SearchPathExcluded-13: includes/woocommerce/deprecated\n"
+"X-Poedit-SearchPathExcluded-14: includes/woocommerce/search-suggestions."
+"php\n"
+"X-Poedit-SearchPathExcluded-15: includes/admin-meta.php\n"
+
+#: 404.php:7
+msgid "Page not found."
+msgstr ""
+
+#: 404.php:8
+msgid ""
+"It looks like nothing was found at this location. Click the link below to "
+"return home."
+msgstr ""
+
+#: 404.php:9
+msgid "Home"
+msgstr ""
+
+#: 404.php:21
+msgid "Featured products"
+msgstr ""
+
+#: archive.php:11
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:13
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:15
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:17
+msgid "Archives"
+msgstr ""
+
+#: author.php:8
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: comments.php:18
+#, php-format
+msgctxt "comments title"
+msgid "One reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:54
+msgid "Color"
+msgstr ""
+
+#: functions.php:55
+msgid "Image"
+msgstr ""
+
+#: functions.php:56
+msgid "Label"
+msgstr ""
+
+#: functions.php:432
+msgid "Please enter a stronger password."
+msgstr ""
+
+#: functions.php:817
+msgid "Top Bar"
+msgstr ""
+
+#: functions.php:818
+msgid "Header Main"
+msgstr ""
+
+#: functions.php:819
+msgid "Header Secondary (Right side)"
+msgstr ""
+
+#: functions.php:820
+msgid "Mobile"
+msgstr ""
+
+#: functions.php:821
+msgid "Footer Bar"
+msgstr ""
+
+#: functions.php:932
+msgid "Categories"
+msgstr ""
+
+#: functions.php:933 includes/translation-strings-dummy.php:59
+#: includes/woocommerce/woocommerce-template-functions.php:161
+msgid "All"
+msgstr ""
+
+#: functions.php:965
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:965 functions.php:990
+msgid "Edit"
+msgstr ""
+
+#: functions.php:977
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:982
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: functions.php:1016
+msgid "Page"
+msgstr ""
+
+#: functions.php:1026
+msgid "Blog"
+msgstr ""
+
+#: functions.php:1037 functions.php:1046
+msgid "Shop"
+msgstr ""
+
+#: functions.php:1057
+msgid "Footer"
+msgstr ""
+
+#: functions.php:1067
+msgid "\"Widgetised Sidebar\" Element"
+msgstr ""
+
+#: includes/custom-styles.php:1274
+msgid "Out of stock"
+msgstr ""
+
+#: includes/custom-styles.php:1275
+msgid "Required field."
+msgstr ""
+
+#: includes/translation-strings-dummy.php:7
+msgid "Shopping Cart"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:8
+msgid "Enter coupon"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:11
+msgid "Payment"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:14
+msgid "Updating&hellip;"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:17 pagination.php:8
+msgid "Load More"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:18
+msgid "All products loaded."
+msgstr ""
+
+#: includes/translation-strings-dummy.php:21
+msgid "Or"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:22
+msgid "Create an account"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:25
+msgid "Order Tracking"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:28
+msgid "Details"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:31
+#: includes/woocommerce/woocommerce-functions.php:228
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:32
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:33
+msgid "Pin on Pinterest"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:36
+msgid "Watch Video"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:39
+#: template-parts/woocommerce/searchform.php:26
+#: template-parts/woocommerce/searchform.php:34
+#, php-format
+msgid "press %sEnter%s to search"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:42
+msgctxt "breadcrumb"
+msgid "Shop"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:45
+#, php-format
+msgid "Filters active %s(%s)%s"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:46
+#, php-format
+msgid "Search results for %s&ldquo;%s&rdquo;%s"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:47
+#, php-format
+msgid "Showing %s&ldquo;%s&rdquo;%s"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:48
+#, php-format
+msgid "Products tagged %s&ldquo;%s&rdquo;%s"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:51
+msgid "Filter Products"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:52
+msgid "Reset Filters"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:55
+msgid "Show more"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:62
+msgid "Sort By"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:64
+msgid "Default"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:65
+msgid "Popularity"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:66
+msgid "Average rating"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:67
+msgid "Newness"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:68
+msgid "Price: Low to High"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:69
+msgid "Price: High to Low"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:73
+msgid "More &nbsp;&rarr;"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:77
+msgid " and tagged "
+msgstr ""
+
+#: includes/translation-strings-dummy.php:78
+msgid "Tagged "
+msgstr ""
+
+#: includes/translation-strings-dummy.php:79
+msgid "&larr;&nbsp; Newer"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:80
+msgid "Older &nbsp;&rarr;"
+msgstr ""
+
+#: includes/translation-strings-dummy.php:84
+msgid "Oops, page not found."
+msgstr ""
+
+#: includes/translation-strings-dummy.php:85
+msgid "Homepage &nbsp;&nbsp;&rarr;"
+msgstr ""
+
+#: includes/visual-composer/deprecated/shortcodes/button.php:6
+msgid "Button with Text"
+msgstr ""
+
+#: includes/visual-composer/deprecated/shortcodes/woocommerce/product-search.php:14
+msgid "Search store"
+msgstr ""
+
+#: includes/visual-composer/element-templates/vc_toggle.php:6
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/visual-composer/page-templates.php:44
+msgid "About"
+msgstr ""
+
+#: includes/visual-composer/page-templates.php:51
+msgid "Contact"
+msgstr ""
+
+#: includes/visual-composer/page-templates.php:58
+msgid "FAQ"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-functions.php:181
+#, php-format
+msgid "%s products"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-functions.php:229
+msgid "Tweet"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-functions.php:230
+msgid "Pin it"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-functions.php:231
+msgid "Download image"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-functions.php:453
+msgid "Please fill in the required fields"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:34
+msgid "My account"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:34
+msgid "Login"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:51
+#: template-parts/woocommerce/cart-panel.php:6
+msgid "Cart"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:230
+msgid "Back"
+msgstr ""
+
+#: page.php:18 templates/page-sidebar.php:29
+msgid "Sorry, nothing to display."
+msgstr ""
+
+#: pagination.php:12
+msgid "Older Posts"
+msgstr ""
+
+#: pagination.php:13
+msgid "Newer Posts"
+msgstr ""
+
+#: search.php:8
+#, php-format
+msgid "%s Search Results for: %s"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search .."
+msgstr ""
+
+#: single.php:39
+msgid "By"
+msgstr ""
+
+#: single.php:39
+msgid "on"
+msgstr ""
+
+#: single.php:49 template-parts/blog/content-classic.php:38
+#: template-parts/blog/content-grid.php:43
+#: template-parts/blog/content-list.php:41
+msgid "Pages:"
+msgstr ""
+
+#: single.php:71
+msgid "Posted in "
+msgstr ""
+
+#: single.php:93
+msgid "Previous"
+msgstr ""
+
+#: single.php:97
+msgid "Next"
+msgstr ""
+
+#: single.php:152
+msgid "Related Posts"
+msgstr ""
+
+#: tag.php:8
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: template-parts/blog/content-classic.php:47
+msgid "Leave a comment"
+msgstr ""
+
+#: template-parts/blog/content-classic.php:47
+msgid "1 comment"
+msgstr ""
+
+#: template-parts/blog/content-classic.php:47
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: template-parts/blog/content-grid.php:53
+msgid "More"
+msgstr ""
+
+#: template-parts/blog/content-none.php:4
+#, php-format
+msgid "Ready to publish your first post? %sGet started here%s."
+msgstr ""
+
+#: template-parts/blog/content-none.php:8
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/blog/content-none.php:12
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: template-parts/navigation/navigation-mobile.php:22
+#: template-parts/woocommerce/searchform.php:9
+msgid "Search products"
+msgstr ""
+
+#: template-parts/woocommerce/cart-panel.php:7
+msgid "Close"
+msgstr ""
+
+#: template-parts/woocommerce/searchform.php:27
+msgid "Showing all results"
+msgstr ""
+
+#: template-parts/woocommerce/searchform.php:28
+msgid "No products found."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Savoy"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"http://themeforest.net/item/savoy-minimalist-ajax-woocommerce-"
+"theme/12537825"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Savoy - Modern AJAX enabled WooCommerce theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NordicMade"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.nordicmade.com"
+msgstr ""
